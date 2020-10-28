@@ -33,8 +33,6 @@
 <!ELEMENT bold (#PCDATA) >
 <!ELEMENT under (#PCDATA) >
 
-<!ELEMENT deliverables (document*) >
-
-<!ELEMENT document (name, url) >
+<!ELEMENT deliverables (link*) >
 
 <!ELEMENT text (#PCDATA) >

@@ -41,13 +41,13 @@
         </paragraph>
         <paragraph>
             Por útimo os documentos a entregar são uma lista com 0 ou mais 
-            elementos em que cada elemento tem um nome e url associados.
+            elementos em que cada elemento tem um texto e url associados.
         </paragraph>
     </abstract>
     <deliverables>
-        <document>
-            <name>DTD correspondente ao formato xml aqui apresentado</name>
+        <link>
+            <text>DTD correspondente ao formato xml aqui apresentado</text>
             <url>pr.dtd</url>
-        </document>
+        </link>
     </deliverables>
 </pr>
