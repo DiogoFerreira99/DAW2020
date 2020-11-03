@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname></keyname>
+        <title>Trabalho de casa 3: desenvolvimento de um website com base num dataset de sitios de interesse arqueológico</title>
+        <begindate>21 de outubro de 2020 </begindate>
+        <enddate></enddate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <url></url>
+        </supervisor>
+    </metadata>
+    <workteam>
+        <membro>
+            <name>Diogo Araújo Ferreira</name>
+            <id>pg42824</id>
+            <email>pg42824@alunos.uminho.pt</email>
+        </membro>
+    </workteam>
+    <abstract>
+        <paragraph>
+            Desenvolvimento de um dtd para este dataset:
+            atendendo ao formato  irregular do dataset apresentado a tag elem permite 
+            qualquer tag no seu interior, pois a única outra opção que obrigaria à existência de 
+            qualquer ordem implacava o resgisto de todas as comutações das tags já existentes no 
+            dataset, algo muito extenso. Tirando os campos que representam números , códigos de identificação,
+            lugares, freguesias e concelhos, todos os outros campos são compostos por PCDATA ou
+            LIGA, que eu suponho que fossem ligações a documentos externos.
+        </paragraph>
+        <paragraph>
+            Desenvolvimento do índice:
+            foi gerado um índice ordenado alfabeticamente tal como foi efetuado na aula, mas 
+            mais uma vez devido à irregularidade dos dados e à existencia de acentos ,tive que 
+            especificar a língua do campo utilizado na ordenação pois a entrada com identificação 
+            Àzere aparecia no fim do índice. 
+            A especificação da língua resolveu também outro problema na ordenação relacionado
+            com a existencia de espaços entre a tag IDENTI e o nome do local, que tinha como 
+            efeito o aparecimento no final do índice das entradas que não apresentavam tal 
+            espaço.
+        </paragraph>
+        <paragraph>
+            As referências para as páginas dos locais e de volta ao índice foram 
+            geradas da mesma maneira que na aula.
+        </paragraph>
+        <paragraph>
+            Desenvolvimento das páginas dos locais:
+            a única diferença entre a geração destas páginas e das páginas que 
+            gerámos no exemplo das aulas, é que neste caso tive de especificar uma 
+            ordem para a aplicação das templates. Caso tal não fosse feito devido à 
+            não existencia de uma ordem estabelecida na apresentação dos parametros,
+            estes apareceriam em diferentes locais para páginas diferentes. Todas as 
+            tags liga foram simplesmente ignoradas.
+        </paragraph>
+    </abstract>
+    <deliverables>
+        <link>
+            <text>DTD correspondente ao formato xml do dataset</text>
+            <url>arq.dtd</url>
+        </link>
+        <link>
+            <text>Ficheiro gerador das páginas HTML</text>
+            <url>arq_web_2.xsl</url>
+        </link>
+        <link>
+            <text>Ficheiro HTML do índice do website</text>
+            <url>site/index.html</url>
+        </link>
+        <link>
+            <text>Ficheiro css aplicado na geração das páginas HTML</text>
+            <url>arq.css</url>
+        </link>     
+    </deliverables>
+</pr>
