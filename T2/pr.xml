@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname></keyname>
+        <title>Trabalho de casa 2: desenvolvimento de uma dtd para pr's</title>
+        <begindate>21 de outubro de 2020 </begindate>
+        <enddate></enddate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <url></url>
+        </supervisor>
+    </metadata>
+    <workteam>
+        <membro>
+            <name>Diogo Araújo Ferreira</name>
+            <id>pg42824</id>
+            <email>pg42824@alunos.uminho.pt</email>
+        </membro>
+    </workteam>
+    <abstract>
+        <paragraph>
+            Atendendo ao formato que nos foi apresentado na aula e ao que o professor
+            sugeriu temos a divisão do documento em quatro partes, metadados, equipa de trabalho,
+            abstrato e documentos a entregar.
+        </paragraph>
+        <paragraph>
+            Nos metadados tal como indicado temos o keyname, título, subtítulo (sendo 
+            este definido como opcional) e o supervisor. O supervisor foi definido com os
+            campos nome e url sendo este último opcional.
+        </paragraph>
+        <paragraph>
+            A equipa de trabalho defini como um lista com um ou mais membros. Cada
+            membro tem um nome, um id, um email e tem como campo opcional um 
+            link que é composto pelo texto que queremos apresentar e o url.
+        </paragraph>
+        <paragraph>
+            Estabeleci que o abstrato é uma lista com um ou mais paragrafos. 
+            Por sua vez cada paragrafo é um conjunto com 0  ou mais elementos de #PCDATA, <under>sublinados</under>,
+            <italic>itálico</italic>, <bold>bold</bold> e links.
+        </paragraph>
+        <paragraph>
+            Por útimo os documentos a entregar são uma lista com 0 ou mais 
+            elementos em que cada elemento tem um texto e url associados.
+        </paragraph>
+    </abstract>
+    <deliverables>
+        <link>
+            <text>DTD correspondente ao formato xml aqui apresentado</text>
+            <url>pr.dtd</url>
+        </link>
+    </deliverables>
+</pr>
