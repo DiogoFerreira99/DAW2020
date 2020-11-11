@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+
+<pr>
+    <meta>
+        <key></key>
+        <title>Trabalho de casa 4 </title>
+        <bdate>6 de novembro 2020</bdate>
+        <edate>10 de novembro 2020</edate>
+        <supervisor> José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42824">
+            <name>Diogo Ferreira</name>
+            <email>pg42824@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Na geração das páginas html mofifiquei o modo de geração do nome para agora
+            site/arq{count(preceding-sibling::ARQELEM)+1}.html, ou seja, conta os siblings que 
+        já foram processados e soma 1 a esse número para os ficheiros começarem 
+        em 1 e não em 0.</p>
+        <p>Quanto às href as do indice são do tipo /arq/{count(preceding-sibling::ARQELEM)+1},
+        as dos ficheiros são do tipo "/", visto que eu defini o indice como a/</p>
+        <p>O servidor faz match á expressão "/\/$/" e à expressão "/\/arq\/[0-9]{1,3}$/"
+        esta última aceita sequencias para as quais não existem ficheiros correspondentes, 
+        mas quando tal acontece obtemos um erro ao tentar abrir o ficheiro e simplesmente 
+        devolvemos um código 404.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="server2.js"></link>
+        <link url="arq_web2.xsl"></link>
+    </deliverables>
+</pr>
