@@ -1,0 +1,9 @@
+.textprin {
+    display: block;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 200%;
+}
