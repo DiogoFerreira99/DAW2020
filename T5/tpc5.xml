@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+
+<pr>
+    <meta>
+        <key></key>
+        <title>Trabalho de casa 5 </title>
+        <bdate>12 de novembro 2020</bdate>
+        <edate>15 de novembro 2020</edate>
+        <supervisor> José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42824">
+            <name>Diogo Ferreira</name>
+            <email>pg42824@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Quandos nos localizámos na barra ele mostra um indice com as três categorias do 
+        da escola de música. Para cada uma destas link para /nome da categoria que por sua vez vai efetuar 
+        um pedido à base de dados da respetiva categoria e lista os resultados.
+        </p>
+        <p>Avançando por exemplo para os indice dos alunos caso selecionempos um vamos gerar
+        um referencia do tipo /alunos/id e apartir desta fazemos o pedido á base de dados da informação.
+        O mesmo se passa com a classe dos instrumentos e dos cursos</p>
+        
+    </abstract>
+    <deliverables>
+        <link url="tpcsever.js"></link>
+    </deliverables>
+</pr>
