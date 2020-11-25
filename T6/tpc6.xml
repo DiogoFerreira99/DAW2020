@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+
+<pr>
+    <meta>
+        <key></key>
+        <title>Trabalho de casa 6 </title>
+        <bdate>12 de novembro 2020</bdate>
+        <edate>15 de novembro 2020</edate>
+        <supervisor> José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42824">
+            <name>Diogo Ferreira</name>
+            <email>pg42824@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>A página apresenta três zonas distintas, a primeira apresenta o formulário para inserir 
+        uma tarefa, só aceitamos a inserção de tarefas que ainda estejam por executar, além dos campos 
+        exigidos pelo professor temos um extra que guarda o estado da tarefa, feita ou por fazer, tal campo 
+        é utilizado para depois gerar as duas listas diferentes.
+        </p>
+        <p>Na segunda secção da página apresentamos a lista de tarefas por fazer, dámos a opção ao utilizador 
+        de editar estas tarefas, ou marca-las como feitas. Quando o utilizador escolhe editar uma tarefa, 
+        no topo da página aparece o formulário preenchido com a informação atual, para ser modificada. </p>
+        <p> Na terceira e última secção da página apresentamos a lista de tarefas efetuadas sendo que a uníca 
+        ação possivel nestas é apagá-las. A solução aqui apresentada não é uma single page application.
+        </p>
+        
+    </abstract>
+    <deliverables>
+        <link url="server2.js"></link>
+        <link url="db.json"></link>
+    </deliverables>
+</pr>
