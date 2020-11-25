@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../aula6"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

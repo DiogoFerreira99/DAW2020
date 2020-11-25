@@ -1,0 +1,17 @@
+{
+  "name": "lista_tarefas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server2.js",
+    "devstart": "nodemon server2.js"
+  },
+  "author": "Diogo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "nodemon": "^2.0.6"
+  }
+}
