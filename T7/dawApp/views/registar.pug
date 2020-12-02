@@ -1,0 +1,82 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3.w3-left Student register (DAW2020)
+      
+      form.w3-container(action='/students',method='Post')
+        label.w3-text-teal Student Number
+        input.w3-input.w3-border.w3-light-grey(type='text',name='numero')
+
+        label.w3-text-teal Student Name
+        input.w3-input.w3-border.w3-light-grey(type='text',name='nome')
+
+        label.w3-text-teal Student Git
+        input.w3-input.w3-border.w3-light-grey(type='text' name='git')
+
+        label.w3-text-teal TPC 1
+        p
+                input.w3-radio(type="radio" name="tpc1" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc1" value=0 checked)
+                label Not Done
+        p
+
+        label.w3-text-teal TPC 2
+        p
+                input.w3-radio(type="radio" name="tpc2" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc2" value=0 checked)
+                label Not Done
+        p
+        label.w3-text-teal TPC 3
+        p
+                input.w3-radio(type="radio" name="tpc3" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc3" value=0 checked)
+                label Not Done
+        p
+        label.w3-text-teal TPC 4
+        p
+                input.w3-radio(type="radio" name="tpc4" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc4" value=0 checked)
+                label Not Done
+        p
+        label.w3-text-teal TPC 5
+        p
+                input.w3-radio(type="radio" name="tpc5" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc5" value=0 checked)
+                label Not Done
+        p
+        label.w3-text-teal TPC 6
+        p
+                input.w3-radio(type="radio" name="tpc6" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc6" value=0 checked)
+                label Not Done
+        p
+
+        label.w3-text-teal TPC 7
+        p
+                input.w3-radio(type="radio" name="tpc7" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc7" value=0 checked)
+                label Not Done
+        p
+        label.w3-text-teal TPC 8
+        p
+                input.w3-radio(type="radio" name="tpc8" value=1)
+                label Done
+                input.w3-radio(type="radio" name="tpc8" value=0 checked)
+                label Not Done
+        p
+        input.w3-btn.w3-blue-grey(type="submit" value="Registar")
+        input.w3-btn.w3-blue-grey(type="reset" value="Limpar valores")
+
+        
+      
+      footer.w3-container.w3-teal
+        address Gerado por dawApp :: 2020-Nov, df

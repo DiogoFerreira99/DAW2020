@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+
+<pr>
+    <meta>
+        <key></key>
+        <title>Trabalho de casa 7 </title>
+        <bdate>25 de novembro 2020</bdate>
+        <edate>28 de novembro 2020</edate>
+        <supervisor> José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42824">
+            <name>Diogo Ferreira</name>
+            <email>pg42824@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>A aplicação apresentada cumpre todos os pedidos para o trabalho de casa, mas tem as oprecações em 
+        diferentes interfaces.
+        </p>
+        <p>Uma das partes mais complicadas do trabalho foi talvez desenvolver uma maneira para ler os 
+        valores do array correspondentes aos trabalhos de casa. A minha solução for apresentar radio buttons 
+        com as opções 0 e 1. Esta solução implica que não podemos guardar diretamente na base de dados o 
+        objeto gerado pelo formulário, em vez disso criamos um novo objeto e cada radio button corresponde a 
+        um indice do array dos tpcs. </p>
+        <p> Outro obstáculo que surgiu neste trabalho foram as ações de editar e apagar, dado que os 
+        formulários utilizados apenas permitem fazer Posts e Gets. Após alguma pesquisa, uma solução 
+        encontrada para este problema foi inserir um hidden field no formulário com o método que pretendemos
+        executar que depois a função methodOverride no ficheiro app.js iria depois substituir de modo a que 
+        pudessemos depois utilizar router.delete e router.put
+        </p>
+        
+    </abstract>
+    <deliverables>
+        <link url="dawApp"></link>
+    </deliverables>
+</pr>

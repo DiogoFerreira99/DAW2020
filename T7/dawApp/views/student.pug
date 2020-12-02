@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3.w3-left Student #{student.numero} (DAW2020)
+      h4 Nome:  #{student.nome}
+      h4 Número de Alunos:  #{student.numero}
+      h4 Git:  #{student.git}
+      if student.tpc.length > 0
+        .w3-container 
+          table.w3-table-all
+            tr 
+              th Trabalho de casa
+              th Realizado
+            - var i = 0;
+            - var j = 1
+            while i < 8 
+              tr
+                td= "Trabalho de casa " + j++
+                td= student.tpc[i++]       
+      else
+        .w3-container
+          p There are no tpcs...
+      footer.w3-container.w3-teal
+        address Gerado por dawApp :: 2020-Nov, df
