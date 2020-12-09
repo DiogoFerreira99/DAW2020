@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+
+<pr>
+    <meta>
+        <key></key>
+        <title>Trabalho de casa 7 </title>
+        <bdate>2 de dezembro 2020</bdate>
+        <edate>5 de dezembro 2020</edate>
+        <supervisor> José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42824">
+            <name>Diogo Ferreira</name>
+            <email>pg42824@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>As únicas modificações que foram necessárias efetuar duas para podermos fazer upload
+        de vários ficheiros ao mesmo tempo.
+        </p>
+        <p>A primeira modificação efetuada foi no servidor que agora em vez de estar à espera de
+        receber os dados referentres a um ficheiro agora espera receber uma lista.
+        </p>
+        <p>A segunda e última modificação deu-se no formulário apresentado quando tentamos fazer o
+        upload de ficheiros. Temos de criar uma div com um identificador à qual vamos fazer append 
+        dos campos necessários preencher sempre que o utilizador carrega no botão para inserir mais um ficheiro.
+        Tivemos de criar outra div que engloba a parte do formulário que queremos replicar e posteriormente 
+        fazer append á div mencionada anterirmente. Para executar a replicação e o append inserimos um script 
+        no formulário que cada vez que o utilizador clica no botão, faz clone da parte anteriormente assinalada
+        e faz o append no sitio correto.</p>
+        
+    </abstract>
+    <deliverables>
+        <link url="files"></link>
+    </deliverables>
+</pr>
